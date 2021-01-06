@@ -231,7 +231,6 @@ class LocationSearchModal extends React.Component {
 
         return (
             <div style={{ padding: '1rem', margin: '0 auto', maxWidth: 1000 }}>
-                <h1>Google Map Basic</h1>
                 <Descriptions bordered>
                     <Descriptions.Item label="City">{this.state.city}</Descriptions.Item>
                     <Descriptions.Item label="Area">{this.state.area}</Descriptions.Item>

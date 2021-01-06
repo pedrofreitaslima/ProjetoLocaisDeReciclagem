@@ -6,16 +6,12 @@ import Mapa from './components/mapa'
 
 function App() {
   return (
-	<div className="container">
 		<div className="container">
-			<Mapa />
-		</div>
-		<div className="container">
-			<br />
 			<Header title="Projeto Locais de Reciclagem"/>
 			<br/>
+			<Mapa />
+			<br />
 			<LocaisBox />
-		</div>
     </div>
   );
 }
