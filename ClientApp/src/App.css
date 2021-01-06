@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #34CB79;
+  --title-color: #322153;
+  --text-color: #6C6C80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F0F0F5;
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+  background-image: url('./assests/home-background.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position-x: 15em;
+  background-position-y: 2em;
+}
+
+body, input, button {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14pt;
+  color: #333;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 32pt !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #34CB79;
+  text-shadow: 2px 1px 1px #322153;
+  font-size: 28pt;
+}

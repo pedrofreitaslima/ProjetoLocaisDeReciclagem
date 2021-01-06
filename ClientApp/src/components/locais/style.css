@@ -1,0 +1,39 @@
+#page-create-point {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.mapa {
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+form-control, .btn-block {
+  border-radius: 1.25rem;
+}
+
+.table {
+  box-shadow: 3px 2px 2px #dcdcdc;
+  border-radius: 1rem;
+  background-color: rgba(185,185,185,0.6);
+  text-align: center;
+  vertical-align: middle;
+}
+
+td {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
